@@ -4,12 +4,12 @@ c=int(input(' enter third grade : '))
 d=int(input(' enter fourth grade : '))
 e=int(input(' enter fifth grade : '))
 m=(a+b+c+d+e)/5
-if m>17:
+if m>=17:
     print=(m)
     print(' student is the best ')
-if m<17 and m>12:
+if m<17 and m>=12:
     print(m)
     print(' student is normal ')
-else :
+if m<12 :
     print(m)
     print(' student is failed ')
